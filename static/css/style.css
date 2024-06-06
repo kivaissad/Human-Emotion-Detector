@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    overflow: hidden;
+}
+  
+h1, p{
+    margin: 1em auto;
+    text-align: center;
+}
+  
+.inline{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+  
+input[type="submit"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: green;
+    border-color: white;
+    min-width: 300px;
+    color: black;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
