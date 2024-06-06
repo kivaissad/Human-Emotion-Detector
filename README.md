@@ -1,11 +1,11 @@
 # Human-Emotion-Detector
 
 ## Overview
-- This is a Human Emotion Detector app using CNN and OpenCV. The webpage is made using Flask.
+- A Human Emotion Detector app built using CNN and OpenCV. The webpage is developed using Flask.
 
 ## How to run this app:
 - To run this application you need Python installed in your local machine.
-- Download `haarcascade_frontalface_default.xml`, `app.py`, `reruirements.txt` and the 'static' and 'templates' folder by cloning the repository.
+- Download `haarcascade_frontalface_default.xml`, `app.py`, `requirements.txt` and the 'static' and 'templates' folder by cloning the repository.
 - In your environment install all the libraries and dependencies by using `pip install -r requirements.txt`
 - Then run the app directly by typing `python app.py` which will open the webpage and start displaying the detected emotions in real time.
 - To close the application click the 'Exit' button.
