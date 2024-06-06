@@ -19,3 +19,9 @@
 - The history of training is given in `plot.png` and the model is saved in `model.keras`.
 - The webpage is made using Flask and the necessary HTML and CSS files are there in the static and templates folder. It uses OpenCV to read data from the webcam directly and give the response.
 - HaarCascade is used to recognize the face and draw the bounding box.
+
+## Contributors
+Avik Das @kivaissad
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
